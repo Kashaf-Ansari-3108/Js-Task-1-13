@@ -807,56 +807,24 @@
 // 7. Write a program that takes time as input from user in 24 hours clock format
 //  like: 1900 = 7pm. 
 //  Implement the following case using if, else & else if statements  
-// var time = +prompt("Input the time as  1900");
-// if(time == 1300)
+// var time = +prompt("Input the time as  1900(7pm)");
+// if(time >= 0000 && time<1200)
 // {
-// alert("it's 1pm");
+// alert("Good Morning!");
 // }
-//  else if(time == 1400)
+//  else if(time >= 1200 && time<1700)
 //  {
-//  alert("it's 2pm");
+//  alert("Good AfterNoon");
 //  }
-// else if(time == 1500)
+// else if(time >= 1700 && time<2100)
 // {
-// alert("it's 3pm");
+// alert("Good Evening");
 // }
-// else if(time == 1600)
+// else if(time >= 2100 && time<2359)
 // {
-// alert("it's 4pm");
-// }
-// else if(time == 1700)
-// {
-// alert("it's 5pm");
-// }
-// else if(time == 1800)
-// {
-// alert("it's 6pm");
-// }
-// else if(time == 1900)
-// {
-// alert("it's 7pm");
-// }
-// else if(time == 2000)
-// {
-// alert("it's 8pm");
-// }
-// else if(time == 2100)
-// {
-// alert("it's 9pm");
-// }
-// else if(time == 2200)
-// {
-// alert("it's 10pm");
-// }
-// else if(time == 2300)
-// {
-// alert("it's 11pm");
-// }
-// else if(time == 2400)
-// {
-// alert("it's 12pm");
+// alert("Good Night");
 // }
 // else{
-//     alert("not valid");
+//     alert("Not Valid");
 // }
 
